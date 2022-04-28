@@ -12,8 +12,10 @@ alias dk-run='docker run -it ';
 
 ## docker-compose
 alias dkc='docker-compose';
-alias dkc-down='docker-compose down';
-alias dkc-up='docker-compose up -d';
-alias dkc-reload='docker-compose down && docker-compose up -d';
+alias dkc-stop='docker-compose down';
+alias dkc-start='docker-compose up';
+alias dkc-start-d='docker-compose up -d';
+alias dkc-status='docker-compose ps';
+alias dkc-restart='docker-compose down && docker-compose up -d';
 
 unset ROOT_PATH;
