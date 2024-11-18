@@ -6,9 +6,11 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 alias dk='docker';
 alias dk-info='docker info';
 alias dk-ps='docker ps';
-alias dk-rmi='docker rmi -f';
-alias dk-images='docker images';
+alias dk-rm='docker rmi -f';
+alias dk-ls='docker images';
+alias dk-mv="~/bin/dkmv.sh";
 alias dk-run='docker run -it ';
+alias dk-exec='docker exec -it';
 
 ## docker-compose
 alias dkc='docker-compose';
