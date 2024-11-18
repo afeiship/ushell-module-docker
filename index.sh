@@ -4,8 +4,8 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 
 ## docker
 alias dk='docker';
-alias dk-s='docker pull';
-alias dk-l='docker push';
+alias dk-pull='docker pull';
+alias dk-push='docker push';
 alias dk-info='docker info';
 alias dk-ps='docker ps';
 alias dk-rm='docker rmi -f';
