@@ -21,5 +21,9 @@ alias dkc-stop='docker-compose down';
 alias dkc-start='docker-compose up';
 alias dkc-start-d='docker-compose up -d';
 alias dkc-restart='docker-compose down && docker-compose up -d';
+alias dkc-up='docker-compose up';
+alias dkc-dw='docker-compose down';
+alias dkc-upd='docker-compose up -d';
+alias dkc-re='docker-compose down && docker-compose up -d';
 
 unset ROOT_PATH;
