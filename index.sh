@@ -27,6 +27,8 @@ alias dkc-upd='docker-compose up -d'
 alias dkc-re='docker-compose down && docker-compose up -d'
 
 ## colima
+alias cl='colima'
+alias cl-edit='colima start --edit'
 alias cl-start='colima start'
 alias cl-stop='colima stop'
 alias cl-restart='colima restart'
