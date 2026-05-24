@@ -8,6 +8,8 @@ alias dk-pull='docker pull'
 alias dk-push='docker push'
 alias dk-info='docker info'
 alias dk-ps='docker ps'
+# docker ps with format
+alias dk-psf='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"';
 alias dk-rm='docker rmi -f'
 alias dk-ls='docker images'
 alias dk-mv="~/bin/dkmv.sh"
